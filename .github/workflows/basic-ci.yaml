@@ -137,4 +137,4 @@ jobs:
           docker buildx build . \
             --platform linux/amd64,linux/arm64 \
             --push \
-            -t ghcr.io/${{ github.repository }}/basic-ci:latest
+            -t ghcr.io/kimsunjeung/tta-devops/basic-ci:latest
